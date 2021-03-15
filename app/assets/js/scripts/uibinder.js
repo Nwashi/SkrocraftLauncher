@@ -97,7 +97,7 @@ function showMainUI(data){
             })
         }, 250)
         
-    }, 750)
+    }, 4000)
     // Disable tabbing to the news container.
     initNews().then(() => {
         $('#newsContainer *').attr('tabindex', '-1')
